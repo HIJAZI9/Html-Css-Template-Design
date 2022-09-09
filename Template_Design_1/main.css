@@ -59,7 +59,7 @@ aside {
 }
 
 img {
-    width: 478px;
+    width: 100%;
     height: 465px;
     margin-top :241px;
     margin-left: -10px;
@@ -114,3 +114,22 @@ footer ul {
     margin-top: 18px;
 }
 
+
+
+@media  screen  and (min-width : 1440px)and (max-width : 1779px)  {
+    article {
+       
+        padding: 149px 55px;
+    }
+    img {
+        margin-top: 132px;
+        width: 87%;
+        height: 443px;
+    }
+    .txt4 {
+        margin: 21px 294px 0px 198px;
+    }
+    .txt1, .txt2 , .txt3  {
+        margin: 0px 0px 0px 187px;
+    }
+}
